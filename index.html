@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="bar.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
@@ -14,13 +14,11 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <title>Array</title>
-    <script src="app.js" defer></script>
-    <script src="array-theory.js" defer></script>
+    <title>02. JS Array &amp; Objects</title>
   </head>
   <body class="bg-dark text-light">
     <div class="container w-50 pt-5">
-      <h1>TaskBar</h1>
+      <h1>Заметки</h1>
       <input
         type="text"
         class="form-control mb-2"
@@ -28,19 +26,19 @@
         id="title"
       />
       <button class="btn btn-outline-info w-100 mb-2" id="create">
-        Add Task
+        Добавить
       </button>
 
       <ul class="list-group list-group-flush" id="list">
-        <!-- <li
+        <li
           class="list-group-item d-flex justify-content-between align-items-center"
         >
           <span>Название</span>
           <span>
-            <span class="btn btn-small btn-success">&check;</span>
-            <span class="btn btn-small btn-danger">&times;</span>
+            <span class="btn btn-small btn-success">✓</span>
+            <span class="btn btn-small btn-danger">×</span>
           </span>
-        </li> -->
+        </li>
       </ul>
     </div>
   </body>
